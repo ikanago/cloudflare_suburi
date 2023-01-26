@@ -1,0 +1,10 @@
+name = "suburi-worker"
+workers_dev = true
+compatibility_date = "2023-01-26"
+main = "build/worker/shim.mjs"
+
+[vars]
+WORKERS_RS_VERSION = "0.0.9"
+
+[build]
+command = "cargo install -q worker-build && worker-build --release" # required

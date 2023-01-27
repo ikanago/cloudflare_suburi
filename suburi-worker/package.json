@@ -1,0 +1,15 @@
+{
+    "name": "suburi-worker",
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "npx wrangler dev",
+        "publish": "npx wrangler publish"
+    },
+    "license": "MIT OR Apache-2.0",
+    "dependencies": {
+        "hono": "^2.7.5"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20230115.0"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "suburi",
+    "private": "true",
+    "workspaces": [
+        "suburi-worker",
+        "suburi-pages"
+    ],
+    "scripts": {
+        "dev:worker": "npm run dev -w suburi-worker"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.3"
+    }
+}

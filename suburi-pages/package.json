@@ -4,10 +4,10 @@
     "version": "0.0.0",
     "type": "module",
     "scripts": {
-        "dev": "vite",
-        "build": "tsc && vite build",
-        "preview": "vite preview",
-        "fmt": "prettier --write '**/*.{js,jsx,ts,tsx,css,json,md}'"
+        "dev": "npx vite",
+        "build": "npx tsc && npx vite build",
+        "preview": "npx vite preview",
+        "fmt": "npx prettier --write '**/*.{js,jsx,ts,tsx,css,json,md}'"
     },
     "dependencies": {
         "react": "^18.2.0",

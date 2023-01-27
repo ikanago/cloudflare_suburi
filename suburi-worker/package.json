@@ -4,7 +4,7 @@
     "scripts": {
         "dev": "npx wrangler dev",
         "publish": "npx wrangler publish",
-        "fmt": "prettier --write '**/*.{js,jsx,ts,tsx,css,json,md}'"
+        "fmt": "npx prettier --write '**/*.{js,jsx,ts,tsx,css,json,md}'"
     },
     "license": "MIT OR Apache-2.0",
     "dependencies": {

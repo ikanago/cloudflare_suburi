@@ -2,9 +2,9 @@
     "name": "suburi-worker",
     "version": "1.0.0",
     "scripts": {
-        "dev": "npx wrangler dev",
-        "publish": "npx wrangler publish",
-        "fmt": "npx prettier --write '**/*.{js,jsx,ts,tsx,css,json,md}'"
+        "dev": "wrangler dev",
+        "publish": "wrangler publish",
+        "fmt": "prettier --write '**/*.{js,jsx,ts,tsx,css,json,md}'"
     },
     "license": "MIT OR Apache-2.0",
     "dependencies": {
